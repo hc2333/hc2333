@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(255, 255, 255)  no-repeat center scroll;
+        }
+    </style>
+</head>
+<body>
+    <button id="bbb" style="background: blue;">求和</button>
+    <script>
+        var x,y;
+        x = 5;
+        y = 4
+        document.write(x+'+'+y);
+        var sss = document.getElementById('bbb');
+        sss.onclick=function(x,y){
+            z = x+y;
+            alert('sss');
+        }
+    </script>
+</body>
+</html>
